@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif; 
+}
+
+main, header {
+  padding: 1rem;
+}
+
+img {
+  width: 100%;
+}
+/* header style start */
+header nav ul li {
+  display: none;
+}
+
+#logo {
+  display: inline;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  font-family: 'Rancho', cursive;
+}
+
+#burger-menu {
+  display: inline;
+  float: right;
+  font-size: 1.6rem;
+}
+/* header style end*/
+
+
+/* header style start */
+/* header style end*/
+/* header style start */
+/* header style end*/
+
+@media screen and (min-width: 725px) {
+
+  body {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+main {
+  padding: 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul li {
+  display: inline;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#burger-menu {
+  display: none;
+}
+
+}
