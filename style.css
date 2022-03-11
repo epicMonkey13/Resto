@@ -219,9 +219,51 @@ box-shadow: 5px 5px 15px rgba(200, 200, 200, 0.8);
 }
 /* testimony style end*/
 
-/* testimony style start */
+/* experts style start */
+.expert {
+  position: relative;
+  margin-bottom: 1rem;
+}
 
-/* testimony style end*/
+.expert-img {
+  height: 60vh;  
+  /* to make it smaller in smaller screens */
+}
+
+.expert-info {
+  background-color: white;
+  position: absolute;
+  width: 80%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto 1.5rem auto;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.expert-info p {
+  color: #333333;
+  font-weight: lighter;
+  margin: 1rem 0;
+}
+
+.expert-social {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 0 auto;
+  color: #0A66c2;
+}
+
+.expert-social :last-child {
+  color: #55ACEE;
+}
+/* experts style end*/
+
+/* footer style start */
+
+/* footer style end*/
 
 @media screen and (min-width: 725px) {
 
@@ -315,4 +357,16 @@ header nav ul li {
   margin: 0 auto;
 }
 
+.experts {
+  padding: 2rem;
+}
+
+.experts-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.expert-img {
+  height: 350px;
+}
 }
